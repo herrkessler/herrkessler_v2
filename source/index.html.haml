@@ -1,0 +1,46 @@
+---
+title: herrkessler.de
+---
+
+%section.section.section--title
+  %h1 herrkessler.de
+  %h3 --#-- full stack since 2007 --#--
+
+%section.section.section--workat
+  %ul
+    - data.data.workat.each do |work|
+      %li
+        %a{:href => work.link}
+          %span.icon
+            = image_tag work.icon, alt: work.title
+          %span= work.title
+
+%section.section.section--workwith
+  %ul
+    - data.data.workwith.each do |work|
+      %li
+        %a{:href => work.link}
+          %span.icon
+            = image_tag work.icon, alt: work.title
+          %span= work.title
+
+%section.section.section--meetat
+  %ul
+    - data.data.meetat.each do |work|
+      %li
+        %a{:href => work.link}
+          %span.icon
+            = image_tag work.icon, alt: work.title
+          %span= work.title
+
+%footer.footer.footer--bar
+  %ul
+    %li Sebastian Kessler
+    %li Thüringsberg 12
+    %li 42897 Remscheid
+    %li |
+    %li 0151-
+    %li
+      %a{:href => "mailto:sebastian@herrkessler.de"} sebastian@herrkessler.de
+    %li
+      %a{:href => "http://www.herrkessler.de"} herrkessler.de

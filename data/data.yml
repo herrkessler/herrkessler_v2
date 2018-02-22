@@ -1,0 +1,59 @@
+workat:
+  -
+    title: OBI Next
+    link: http://www.obinext.de
+    start: 02.2018
+    stop: now
+    icon: obinext.png
+  -
+    title: Parasol Island
+    link: http://www.parasol-island.com
+    start: 02.2018
+    stop: 01.2018
+    icon: parasol.svg
+  -
+    title: BOROS
+    link: http://www.boros.de
+    start: 02.2018
+    stop: now
+    icon: boros.png
+  -
+    title: Zweitag
+    link: http://www.zweitag.de
+    start: 02.2018
+    stop: nowZweitag
+    icon: zweitag.png
+  -
+    title: FMA / herrkessler
+    link: http://www.herrkessler.de
+    start: 02.2018
+    stop: nowFMA
+    icon: ""
+workwith:
+  -
+    title: Ruby
+    link: http://www.ruby.org
+    icon: ""
+  -
+    title: Crystal
+    link: http://www.ruby.org
+    icon: ""
+  -
+    title: NodeJS
+    link: http://www.ruby.org
+    icon: ""
+  -
+    title: ES6
+    link: http://www.ruby.org
+    icon: ""
+  -
+    title: SASS
+    link: http://www.ruby.org
+    icon: ""
+meetat:
+  -
+    title: Github
+    link: http://www.github.com/herrkessler
+  -
+    title: Gitlab
+    link: http://www.gitlab.com/herrkessler
